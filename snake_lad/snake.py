@@ -103,7 +103,7 @@ def draw_scoreboard(player_positions, current_player, dice_roll):
 # Main game loop
 def play_game(num_players):
     player_positions = [0] * num_players
-    player_colors = [RED, BLUE, GREEN, PURPLE][:num_players]  # Adjust colors based on number of players
+    player_colors = [RED, BLUE, GREEN, PURPLE][:num_players]  #Adjust colors based on number of players
     current_player = 0
     dice_roll = 0
     running = True
