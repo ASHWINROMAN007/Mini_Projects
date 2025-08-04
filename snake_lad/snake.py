@@ -32,7 +32,7 @@ ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 def position_to_coordinates(position):
     row = (position - 1) // COLS
     col = (position - 1) % COLS
-    if row % 2 == 1:  # Odd row: left to right
+    if row % 2 == 1:  # Odd row:left to right
         col = COLS - col - 1
     x = col * SQUARE_SIZE + SQUARE_SIZE // 2
     y = (ROWS - row - 1) * SQUARE_SIZE + SQUARE_SIZE // 2
